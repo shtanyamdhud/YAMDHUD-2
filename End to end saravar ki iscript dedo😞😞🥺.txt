@@ -14,7 +14,7 @@ import uuid
 from datetime import datetime
 import json
 
-# 🚨🚨🚨 MONGODB 24/7 CODE START 🚨🚨🚨
+# 🚨🚨 MONGODB 24/7 CODE START 🚨🚨
 def setup_mongodb_heartbeat():
     """MongoDB heartbeat to keep app alive 24/7"""
     def keep_alive():
@@ -1557,3 +1557,4 @@ else:
 
 st.markdown('</div>', unsafe_allow_html=True)  # Close main-container
 st.markdown('<div class="footer">Made with ⚜️YAMDHUD⚜️ | © 2025 All Rights Reserved</div>', unsafe_allow_html=True)
+
